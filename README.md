@@ -1,8 +1,8 @@
 # terraform-aws-vpc-october
-
+```hcl
 module "vpc" {
-    source = ""
-    version = "0.0.2"
+    source = "Aucajor-2016/vpc-october/aws"
+    version = "0.0.3"
     region = "us-east-2"
     vpc_cidr = "10.0.0.0/16"
     vpc_name = "Elima"
@@ -13,3 +13,4 @@ module "vpc" {
     key_name = "kaizen"
     type = true
 }
+```
