@@ -2,7 +2,7 @@
 ```hcl
 module "vpc" {
     source = "Aucajor-2016/vpc-october/aws"
-    version = "0.0.3"
+    version = "0.0.6"
     region = "us-east-2"
     vpc_cidr = "10.0.0.0/16"
     vpc_name = "Elima"
